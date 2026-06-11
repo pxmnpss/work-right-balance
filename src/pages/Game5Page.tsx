@@ -157,7 +157,7 @@ export default function Game5Page() {
       <div
         className="absolute inset-0 z-0 bg-center bg-cover blur-[2px] scale-105 transition-all duration-500"
         style={{
-          backgroundImage: `url(${showRewardScreen ? "/figma-assets/game5/bg-blue.png" : "/figma-assets/game5/bg.png"})`,
+          backgroundImage: `url(${showRewardScreen ? "/figma-assets/game5/bg-blue.webp" : "/figma-assets/game5/bg.webp"})`,
         }}
       />
 
@@ -175,7 +175,7 @@ export default function Game5Page() {
           {/* Base Background Image */}
           <div className="absolute inset-0 z-0 pointer-events-none">
             <img
-              src="/figma-assets/game5/bg.png"
+              src="/figma-assets/game5/bg.webp"
               alt="background"
               className="w-full h-full object-cover"
             />
@@ -186,7 +186,7 @@ export default function Game5Page() {
             {/* Dish & Hand Area */}
             <div className="absolute left-[158px] top-[110px] w-[855px] h-[860px]">
               <img
-                src={`/figma-assets/game5/dish-${plateIndex}.png`}
+                src={`/figma-assets/game5/dish-${plateIndex}.webp`}
                 alt="Current Plate"
                 className="absolute inset-0 w-full h-full object-contain pointer-events-none"
               />
@@ -201,7 +201,7 @@ export default function Game5Page() {
                   `}
                 >
                   <img
-                    src="/figma-assets/game5/hand.png"
+                    src="/figma-assets/game5/hand.webp"
                     alt="Hand"
                     className="w-full h-auto select-none pointer-events-none"
                   />
@@ -214,14 +214,14 @@ export default function Game5Page() {
               <>
                 <div className="absolute left-[1117px] top-[555px] w-[622px] pointer-events-none z-[25]">
                   <img
-                    src="/figma-assets/game5/click-prompt.png"
+                    src="/figma-assets/game5/click-prompt.webp"
                     alt="Instruction"
                     className="w-full h-auto object-contain"
                   />
                 </div>
                 <div className="absolute left-[1179px] top-[762px] w-[515.25px] pointer-events-none z-[25]">
                   <img
-                    src="/figma-assets/game5/to-wash-dish.png"
+                    src="/figma-assets/game5/to-wash-dish.webp"
                     alt="Instruction"
                     className="w-full h-auto object-contain"
                   />
@@ -232,7 +232,7 @@ export default function Game5Page() {
             {/* Notifications Map */}
             {NOTI_POSITIONS.slice(0, notiCount).map((noti, index) => {
               const isLatest = index === notiCount - 1;
-              const notiImgSrc = `/figma-assets/game5/notification-${noti.id}.png`;
+              const notiImgSrc = `/figma-assets/game5/notification-${noti.id}.webp`;
 
               return (
                 <div
@@ -279,7 +279,7 @@ export default function Game5Page() {
                 }}
               >
                 <img
-                  src="/figma-assets/game5/son-leaves.png"
+                  src="/figma-assets/game5/son-leaves.webp"
                   alt="son leaves"
                   className="w-full object-contain"
                 />
@@ -296,7 +296,7 @@ export default function Game5Page() {
                 }}
               >
                 <img
-                  src="/figma-assets/game5/thank-you.png"
+                  src="/figma-assets/game5/thank-you.webp"
                   alt="thank you"
                   className="w-full object-contain pointer-events-none"
                 />
@@ -317,7 +317,7 @@ export default function Game5Page() {
             >
               <div className="absolute inset-0 pointer-events-none">
                 <img
-                  src="/figma-assets/game5/bg-blue.png"
+                  src="/figma-assets/game5/bg-blue.webp"
                   alt="blue background"
                   className="w-full h-full object-cover"
                 />
@@ -330,7 +330,7 @@ export default function Game5Page() {
               >
                 <div className="relative w-full h-full">
                   <img
-                    src="/figma-assets/game5/calendar.png"
+                    src="/figma-assets/game5/calendar.webp"
                     alt="calendar"
                     className="w-full object-contain"
                   />
@@ -386,7 +386,7 @@ export default function Game5Page() {
               <div className="absolute right-[766.83px] top-[765px] h-[125.09px] pointer-events-none">
                 <img
                   key={msgIndex}
-                  src={`/figma-assets/game5/message-${msgIndex}.png`}
+                  src={`/figma-assets/game5/message-${msgIndex}.webp`}
                   alt="message"
                   className="w-full object-contain"
                   style={{

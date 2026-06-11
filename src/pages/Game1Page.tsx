@@ -5,44 +5,44 @@ import ExitButton from "../components/ExitButton";
 const W = 1920;
 const H = 1080;
 
-const HAND_IMAGE_SRC = "/figma-assets/game1/hand.png";
+const HAND_IMAGE_SRC = "/figma-assets/game1/hand.webp";
 const MOTHER_MASK_GIF_SRC = "/figma-assets/game1/mom-mask.gif";
-const TABLE_IMAGE_SRC = "/figma-assets/game1/schedule-table.png";
-const REMEMBER_IMAGE_SRC = "/figma-assets/game1/remember.png";
+const TABLE_IMAGE_SRC = "/figma-assets/game1/schedule-table.webp";
+const REMEMBER_IMAGE_SRC = "/figma-assets/game1/remember.webp";
 
-const WATBUN_IMAGE_SRC = "/figma-assets/game1/temple-bunrod.png";
-const WATSONG_IMAGE_SRC = "/figma-assets/game1/temple-bunsong.png";
-const EY_IMAGE_SRC = "/figma-assets/game1/oops.png";
-const WATLOD_IMAGE_SRC = "/figma-assets/game1/temple-lodbun.png";
-const READY_IMAGE_SRC = "/figma-assets/game1/ready.png";
-const CALENDAR_IMAGE_SRC = "/figma-assets/game1/calendar.png";
+const WATBUN_IMAGE_SRC = "/figma-assets/game1/temple-bunrod.webp";
+const WATSONG_IMAGE_SRC = "/figma-assets/game1/temple-bunsong.webp";
+const EY_IMAGE_SRC = "/figma-assets/game1/oops.webp";
+const WATLOD_IMAGE_SRC = "/figma-assets/game1/temple-lodbun.webp";
+const READY_IMAGE_SRC = "/figma-assets/game1/ready.webp";
+const CALENDAR_IMAGE_SRC = "/figma-assets/game1/calendar.webp";
 
-const BUNSONG_REPLY_SRC = "/figma-assets/game1/reply-temple1.png";
-const WATLOD_REPLY_SRC = "/figma-assets/game1/reply-temple2.png";
-const WATBUN_REPLY_SRC = "/figma-assets/game1/reply-temple3.png";
+const BUNSONG_REPLY_SRC = "/figma-assets/game1/reply-temple1.webp";
+const WATLOD_REPLY_SRC = "/figma-assets/game1/reply-temple2.webp";
+const WATBUN_REPLY_SRC = "/figma-assets/game1/reply-temple3.webp";
 
 const END_CAT_GIF_SRC = "/figma-assets/game1/cat-end.gif";
 const CIRCLE_MARK_GIF_SRC = "/figma-assets/game1/circle.gif";
 
-const PETTING_CAT_TITLE_SRC = "/figma-assets/game1/petting-cat.png";
+const PETTING_CAT_TITLE_SRC = "/figma-assets/game1/petting-cat.webp";
 const AUTOMATIC_ACTIVITY_TITLE_SRC =
-  "/figma-assets/game1/automatic-activity.png";
-const CONSIDERED_AS_TEXT_SRC = "/figma-assets/game1/considered-as.png";
-const CAN_BE_WELL_DONE_TEXT_SRC = "/figma-assets/game1/can-do-well.png";
+  "/figma-assets/game1/automatic-activity.webp";
+const CONSIDERED_AS_TEXT_SRC = "/figma-assets/game1/considered-as.webp";
+const CAN_BE_WELL_DONE_TEXT_SRC = "/figma-assets/game1/can-do-well.webp";
 const FINAL_HEART_GIF_SRC = "/figma-assets/game1/heart.gif";
 
 const CORRECT_GIF_SRC = "/figma-assets/game1/mom-correct.gif";
 const WRONG_GIF_SRC = "/figma-assets/game1/mom-wrong.gif";
 
-const HEART1_IMAGE_SRC = "/figma-assets/game1/heart-1.png";
-const HEART2_IMAGE_SRC = "/figma-assets/game1/heart-2.png";
-const HEART3_IMAGE_SRC = "/figma-assets/game1/heart-3.png";
-const HEART4_IMAGE_SRC = "/figma-assets/game1/heart-4.png";
-const HEART5_IMAGE_SRC = "/figma-assets/game1/heart-5.png";
-const HEART6_IMAGE_SRC = "/figma-assets/game1/heart-6.png";
-const HEART7_IMAGE_SRC = "/figma-assets/game1/heart-7.png";
-const HEART8_IMAGE_SRC = "/figma-assets/game1/heart-8.png";
-const HEART9_IMAGE_SRC = "/figma-assets/game1/heart-end.png";
+const HEART1_IMAGE_SRC = "/figma-assets/game1/heart-1.webp";
+const HEART2_IMAGE_SRC = "/figma-assets/game1/heart-2.webp";
+const HEART3_IMAGE_SRC = "/figma-assets/game1/heart-3.webp";
+const HEART4_IMAGE_SRC = "/figma-assets/game1/heart-4.webp";
+const HEART5_IMAGE_SRC = "/figma-assets/game1/heart-5.webp";
+const HEART6_IMAGE_SRC = "/figma-assets/game1/heart-6.webp";
+const HEART7_IMAGE_SRC = "/figma-assets/game1/heart-7.webp";
+const HEART8_IMAGE_SRC = "/figma-assets/game1/heart-8.webp";
+const HEART9_IMAGE_SRC = "/figma-assets/game1/heart-end.webp";
 
 const HAND_PET_START_X = 1546;
 const HAND_PET_Y = 513;
@@ -294,7 +294,7 @@ export function Game1Page() {
       `}</style>
 
       <img
-        src="/figma-assets/game1/flower-background.png"
+        src="/figma-assets/game1/flower-background.webp"
         alt="Blurred BG"
         className="absolute inset-0 h-full w-full object-cover pointer-events-none z-0 blur-[10px] opacity-100"
       />
@@ -312,7 +312,7 @@ export function Game1Page() {
             
             {/* background */}
             <img
-              src="/figma-assets/game1/flower-background.png"
+              src="/figma-assets/game1/flower-background.webp"
               alt="BG"
               className="absolute inset-0 h-full w-full object-fill pointer-events-none z-0"
             />
@@ -372,37 +372,37 @@ export function Game1Page() {
               }}
             >
               <img
-                src="/figma-assets/game1/scroll-prompt.png"
+                src="/figma-assets/game1/scroll-prompt.webp"
                 alt="เลื่อน"
                 className="absolute left-[71px] top-[262px] w-[295px] h-auto"
               />
               <img
-                src="/figma-assets/game1/mouse-cursor.png"
+                src="/figma-assets/game1/mouse-cursor.webp"
                 alt="เมาส์"
                 className="absolute left-[336.91px] top-[230px] w-[287px] h-auto"
               />
               <img
-                src="/figma-assets/game1/left-arrow.png"
+                src="/figma-assets/game1/left-arrow.webp"
                 alt="ซ้าย"
                 className="absolute left-[303px] top-[375px] w-[255px] h-auto"
               />
               <img
-                src="/figma-assets/game1/-.png"
+                src="/figma-assets/game1/-.webp"
                 alt="-"
                 className="absolute left-[549.28px] top-[378.29px] w-[35px] h-auto"
               />
               <img
-                src="/figma-assets/game1/right-arrow.png"
+                src="/figma-assets/game1/right-arrow.webp"
                 alt="ขวา"
                 className="absolute left-[587px] top-[367px] w-[210px] h-auto"
               />
               <img
-                src="/figma-assets/game1/to-pet.png"
+                src="/figma-assets/game1/to-pet.webp"
                 alt="to pet"
                 className="absolute left-[277px] bottom-[265px] w-[350px] h-auto rotate-3"
               />
               <img
-                src="/figma-assets/game1/brownie.png"
+                src="/figma-assets/game1/brownie.webp"
                 alt="brownie"
                 className="absolute left-[620.55px] bottom-[220px] w-[320px] h-auto rotate-3"
               />

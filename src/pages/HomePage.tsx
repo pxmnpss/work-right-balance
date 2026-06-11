@@ -3,13 +3,13 @@ import { useNavigate } from "react-router-dom";
 
 const ASSETS = {
   logo: "/figma-assets/home/logo.gif",
-  ribbon: "/figma-assets/home/ribbon.png",
+  ribbon: "/figma-assets/home/ribbon.webp",
   pencil: "/figma-assets/home/pencil.png",
   paper: "/figma-assets/home/paper.png",
   postIt: "/figma-assets/home/post-it.png",
   spray: "/figma-assets/home/spray.png",
   bounceBg: "/figma-assets/home/bounce-bg.png",
-  startBtn: "/figma-assets/home/start-btn.png",
+  startBtn: "/figma-assets/home/start-btn.webp",
 } as const;
 
 export function useProScale(baseWidth = 1920, baseHeight = 1080) {

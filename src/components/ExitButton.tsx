@@ -63,7 +63,7 @@ export default function ExitButton({ mode = "fixed" }: { mode?: "fixed" | "absol
           className="peer relative z-10 w-full h-full cursor-pointer border-none bg-transparent p-0 outline-none transition-transform duration-150 hover:scale-105 active:scale-100 block"
         >
           <img
-            src="/figma-assets/exit/esc.png"
+            src="/figma-assets/exit/esc.webp"
             alt="ESC"
             className="w-full h-full object-contain"
           />
@@ -74,7 +74,7 @@ export default function ExitButton({ mode = "fixed" }: { mode?: "fixed" | "absol
           style={{ width: "242px", height: "70px" }}
         >
           <img
-            src="/figma-assets/exit/esc-text.png"
+            src="/figma-assets/exit/esc-text.webp"
             alt="พับจอ พอแล้วจั๊ฟ"
             className="w-full h-full object-contain"
           />
@@ -96,7 +96,7 @@ export default function ExitButton({ mode = "fixed" }: { mode?: "fixed" | "absol
             style={{ transform: `scale(${scale})` }}
           >
             <img
-              src="/figma-assets/exit/exit-question.png"
+              src="/figma-assets/exit/exit-question.webp"
               alt="ต้องการออกไปหน้าแรกหรือไม่"
               className="mb-[117px] object-contain"
               style={{ width: "1215px", height: "auto" }}
@@ -109,7 +109,7 @@ export default function ExitButton({ mode = "fixed" }: { mode?: "fixed" | "absol
                 style={{ width: "301px", height: "auto" }}
               >
                 <img
-                  src="/figma-assets/exit/no-exit.png"
+                  src="/figma-assets/exit/no-exit.webp"
                   alt="ไม่ก็ได้"
                   className="w-full h-auto object-contain"
                 />
@@ -121,7 +121,7 @@ export default function ExitButton({ mode = "fixed" }: { mode?: "fixed" | "absol
                 style={{ width: "301px", height: "auto" }}
               >
                 <img
-                  src="/figma-assets/exit/exit.png"
+                  src="/figma-assets/exit/exit.webp"
                   alt="ออกจ้ะ"
                   className="w-full h-auto object-contain"
                 />

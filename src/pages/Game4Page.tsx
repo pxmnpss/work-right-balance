@@ -1,32 +1,32 @@
 import { useState, useEffect, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import ExitButton from "../components/ExitButton";
-import bgImg from "/figma-assets/game4/bg.png";
-import comImg from "/figma-assets/game4/laptop.png";
-import notiImg from "/figma-assets/game4/notification.png";
-import notiImg2 from "/figma-assets/game4/notification2.png";
-import bossMsgImg from "/figma-assets/game4/boss-message.png";
-import bgInsertImg from "/figma-assets/game4/bg-insert.png";
+import bgImg from "/figma-assets/game4/bg.webp";
+import comImg from "/figma-assets/game4/laptop.webp";
+import notiImg from "/figma-assets/game4/notification.webp";
+import notiImg2 from "/figma-assets/game4/notification2.webp";
+import bossMsgImg from "/figma-assets/game4/boss-message.webp";
+import bgInsertImg from "/figma-assets/game4/bg-insert.webp";
 import momGif from "/figma-assets/game4/mom.gif";
-import helpTextImg from "/figma-assets/game4/help.png";
-import prepare from "/figma-assets/game4/prepare.png";
-import boxImg from "/figma-assets/game4/parcel.png";
-import waitingImg from "/figma-assets/game4/waiting.png";
-import sendBtnImg from "/figma-assets/game4/send-btn.png";
-import writeLabelImg from "/figma-assets/game4/write-label.png";
+import helpTextImg from "/figma-assets/game4/help.webp";
+import prepare from "/figma-assets/game4/prepare.webp";
+import boxImg from "/figma-assets/game4/parcel.webp";
+import waitingImg from "/figma-assets/game4/waiting.webp";
+import sendBtnImg from "/figma-assets/game4/send-btn.webp";
+import writeLabelImg from "/figma-assets/game4/write-label.webp";
 import momCorrectGif from "/figma-assets/game4/mom-correct.gif";
 import momWrongGif from "/figma-assets/game4/mom-wrong.gif";
 import bossCorrectGif from "/figma-assets/game4/boss-correct.gif";
 import bossWrongGif from "/figma-assets/game4/boss-wrong.gif";
-import warningImg from "/figma-assets/game4/warning.png";
-import resultTextImg from "/figma-assets/game4/result-text.png";
-import helpBtnImg from "/figma-assets/game4/help-btn.png";
-import bossChatBoxImg from "/figma-assets/game4/boss-chat-box.png";
-import momLabelImg from "/figma-assets/game4/mom-label.png";
+import warningImg from "/figma-assets/game4/warning.webp";
+import resultTextImg from "/figma-assets/game4/result-text.webp";
+import helpBtnImg from "/figma-assets/game4/help-btn.webp";
+import bossChatBoxImg from "/figma-assets/game4/boss-chat-box.webp";
+import momLabelImg from "/figma-assets/game4/mom-label.webp";
 import clickStartImg from "/figma-assets/game3/click-start.gif";
 
 // constants
-const BG_COLOR_BLUE = "#38A2CB";
+const BG_COLOR_BLUE = "#04A2CC";
 const BG_COLOR_YELLOW = "#EEFF00";
 
 const BOSS_TARGET_NUMBER = "11010";
@@ -347,7 +347,7 @@ export default function Game4Page() {
                 {momDigitIndex >= 0 && !momShowEndScreen && (
                   <img
                     key={`mom-digit-${momDigitIndex}`}
-                    src={`/figma-assets/game4/${MOM_TARGET_NUMBER[momDigitIndex]}-mom.png`}
+                    src={`/figma-assets/game4/${MOM_TARGET_NUMBER[momDigitIndex]}-mom.webp`}
                     alt="Mom Digit"
                     className="absolute bottom-[92.67px] left-[336px] h-[77.33px] z-50 animate-slide-up"
                   />
@@ -532,7 +532,7 @@ export default function Game4Page() {
                   {bossDigitIndex >= 0 && !bossShowEndScreen && (
                     <img
                       key={`boss-digit-${bossDigitIndex}`}
-                      src={`/figma-assets/game4/${BOSS_TARGET_NUMBER[bossDigitIndex]}-boss.png`}
+                      src={`/figma-assets/game4/${BOSS_TARGET_NUMBER[bossDigitIndex]}-boss.webp`}
                       alt="Boss Digit"
                       className="absolute top-[165px] left-[404px] h-[77.33px] z-50 animate-slide-up"
                     />

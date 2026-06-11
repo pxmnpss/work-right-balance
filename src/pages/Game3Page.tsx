@@ -2,47 +2,47 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ExitButton from "../components/ExitButton";
 
-const imgBgSummary = "/figma-assets/game3/bg-summary.png";
+const imgBgSummary = "/figma-assets/game3/bg-summary.webp";
 
-const imgBossStatic = "/figma-assets/game3/boss.png";
-const imgElements = "/figma-assets/game3/elements.png";
+const imgBossStatic = "/figma-assets/game3/boss.webp";
+const imgElements = "/figma-assets/game3/elements.webp";
 const imgHeartGif = "/figma-assets/game3/heart.gif";
 
 const imgBossGif = "/figma-assets/game3/boss.gif";
-const imgCalendar = "/figma-assets/game3/calendar.png";
-const imgCallButton = "/figma-assets/game3/call-button.png";
-const imgRemember = "/figma-assets/game3/remember.png";
-const imgImportant = "/figma-assets/game3/important.png";
+const imgCalendar = "/figma-assets/game3/calendar.webp";
+const imgCallButton = "/figma-assets/game3/call-button.webp";
+const imgRemember = "/figma-assets/game3/remember.webp";
+const imgImportant = "/figma-assets/game3/important.webp";
 
-const imgSpeech1 = "/figma-assets/game3/speech-1.png";
-const imgSpeech2 = "/figma-assets/game3/speech-2.png";
-const imgSpeech3 = "/figma-assets/game3/speech-3.png";
+const imgSpeech1 = "/figma-assets/game3/speech-1.webp";
+const imgSpeech2 = "/figma-assets/game3/speech-2.webp";
+const imgSpeech3 = "/figma-assets/game3/speech-3.webp";
 
-const imgMomSpeech1 = "/figma-assets/game3/mom-speech-1.png";
-const imgMomSpeech2 = "/figma-assets/game3/mom-speech-2.png";
+const imgMomSpeech1 = "/figma-assets/game3/mom-speech-1.webp";
+const imgMomSpeech2 = "/figma-assets/game3/mom-speech-2.webp";
 
 const imgMomDoctorGif = "/figma-assets/game3/mom-doctor.gif";
 
-const imgBgInsert = "/figma-assets/game3/bg-insert.png";
-const imgUrgent = "/figma-assets/game3/urgent.png";
-const imgHelpMom = "/figma-assets/game3/help-mom.png";
+const imgBgInsert = "/figma-assets/game3/bg-insert.webp";
+const imgUrgent = "/figma-assets/game3/urgent.webp";
+const imgHelpMom = "/figma-assets/game3/help-mom.webp";
 const imgMomGif = "/figma-assets/game3/mom.gif";
-const imgMomCalendar = "/figma-assets/game3/mom-calendar.png";
+const imgMomCalendar = "/figma-assets/game3/mom-calendar.webp";
 
-const imgMomCalendarNew = "/figma-assets/game3/ปติทินแม่.png";
-const imgBossCalendarNew = "/figma-assets/game3/ปติทินหัวหน้า.png";
+const imgMomCalendarNew = "/figma-assets/game3/ปติทินแม่.webp";
+const imgBossCalendarNew = "/figma-assets/game3/ปติทินหัวหน้า.webp";
 
 const imgCircleGif = "/figma-assets/game1/circle.gif";
 
 const imgClickStart = "/figma-assets/game3/click-start.gif";
 
 const imgMomQ = [
-  "/figma-assets/game3/mom-q1.png",
-  "/figma-assets/game3/mom-q2.png",
+  "/figma-assets/game3/mom-q1.webp",
+  "/figma-assets/game3/mom-q2.webp",
 ];
 const imgBossQ = [
-  "/figma-assets/game3/boss-q1.png",
-  "/figma-assets/game3/boss-q2.png",
+  "/figma-assets/game3/boss-q1.webp",
+  "/figma-assets/game3/boss-q2.webp",
 ];
 
 const imgMomCorrect = "/figma-assets/game3/mom-correct.gif";
@@ -50,14 +50,14 @@ const imgMomWrong = "/figma-assets/game3/mom-wrong.gif";
 const imgBossCorrect = "/figma-assets/game3/boss-correct.gif";
 const imgBossWrong = "/figma-assets/game3/boss-wrong.gif";
 
-const imgAiya = "/figma-assets/game3/aiya.png";
-const imgWait = "/figma-assets/game3/wait.png";
-const imgWait2 = "/figma-assets/game3/wait2.png";
-const imgOkay = "/figma-assets/game3/okay.png";
+const imgAiya = "/figma-assets/game3/aiya.webp";
+const imgWait = "/figma-assets/game3/wait.webp";
+const imgWait2 = "/figma-assets/game3/wait2.webp";
+const imgOkay = "/figma-assets/game3/okay.webp";
 
-const imgSlideBar = "/figma-assets/game3/slide-bar.png";
-const imgSlideButton = "/figma-assets/game3/slide-button.png";
-const imgSlideText = "/figma-assets/game3/Text.png";
+const imgSlideBar = "/figma-assets/game3/slide-bar.webp";
+const imgSlideButton = "/figma-assets/game3/slide-button.webp";
+const imgSlideText = "/figma-assets/game3/Text.webp";
 
 const W = 1920;
 const H = 3240;

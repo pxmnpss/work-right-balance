@@ -1,17 +1,17 @@
 const P = "/figma-assets/intro";
 
 // Decorative text / sticker elements
-export const imgTopBadge    = `${P}/99eb379baece1e51d0f936a21550b493c85f0aee.png`;
-export const imgStickerA    = `${P}/ff4c3a858e5d70e3381eab2fbbc38bed6b7c332d.png`;
-export const imgStickerB    = `${P}/6b8b237a6420c303ee8b32577886627be10eb544.png`;
-export const imgStickerC    = `${P}/dc0dc1fc8fefd74db0137153bc7f41acf6847201.png`;
-export const imgBannerMid   = `${P}/a5cebcea3d7cc6cde6d6d956d6f433798a29a388.png`;
+export const imgTopBadge    = `${P}/99eb379baece1e51d0f936a21550b493c85f0aee.webp`;
+export const imgStickerA    = `${P}/ff4c3a858e5d70e3381eab2fbbc38bed6b7c332d.webp`;
+export const imgStickerB    = `${P}/6b8b237a6420c303ee8b32577886627be10eb544.webp`;
+export const imgStickerC    = `${P}/dc0dc1fc8fefd74db0137153bc7f41acf6847201.webp`;
+export const imgBannerMid   = `${P}/a5cebcea3d7cc6cde6d6d956d6f433798a29a388.webp`;
 
 // Multitasking button image
 export const imgMulti1 = `${P}/0caf6c546c5b34002caf3216540f958d282152f9.png`;
 
 // Structural elements
-export const imgRectangle = `${P}/1d280d45185f8603062c7838b65e086e96850530.png`;
+export const imgRectangle = `${P}/1d280d45185f8603062c7838b65e086e96850530.webp`;
 export const imgBg        = `${P}/ac1905e9be639a2062dbd15f5125c15b0aaab899.svg`;
 export const imgWfh       = `${P}/1f07338fa31204180dee3ef2cc3771b4f1d4f82c.svg`;
 export const imgVector    = `${P}/1d15bfd00937df8f11061884c081c10d85cd75f7.svg`;
@@ -55,5 +55,5 @@ export const imgGroup32   = `${P}/976234395f3420456d98af77defed63903c6cc1e.svg`;
 export const imgGroup33   = `${P}/7da6587b72aca11992bf52fb1b3ed4006beb149f.svg`;
 
 // Named section images
-export const imgPressure   = `${P}/pressure.png`;
-export const imgExpectation = `${P}/expectation.png`;
+export const imgPressure   = `${P}/pressure.webp`;
+export const imgExpectation = `${P}/expectation.webp`;

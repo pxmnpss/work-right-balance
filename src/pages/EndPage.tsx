@@ -65,7 +65,7 @@ export default function EndPage() {
         >
           <section className="relative h-full w-full overflow-hidden bg-white">
             <img
-              src="/figma-assets/end/bg.png"
+              src="/figma-assets/end/bg.webp"
               alt="background"
               className="absolute bottom-0 left-0 z-0 h-full w-full object-cover object-bottom pointer-events-none"
             />
@@ -84,7 +84,7 @@ export default function EndPage() {
                 style={{ left: 685, top: 692, width: 580.26, height: 438.96 }}
               >
                 <img
-                  src="/figma-assets/end/file.png"
+                  src="/figma-assets/end/file.webp"
                   alt="File"
                   className="h-full w-full object-contain"
                 />
@@ -101,7 +101,7 @@ export default function EndPage() {
                 }}
               >
                 <img
-                  src="/figma-assets/end/click.png"
+                  src="/figma-assets/end/click.webp"
                   alt="Click"
                   className="h-full w-full object-contain"
                 />
@@ -123,7 +123,7 @@ export default function EndPage() {
 
           <div className="relative z-10 w-[90%] max-w-[600px]">
             <img
-              src="/figma-assets/end/window.png"
+              src="/figma-assets/end/window.webp"
               alt="Window"
               className="block h-auto w-full object-contain"
             />

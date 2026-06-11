@@ -4,11 +4,11 @@ import { useNavigate } from "react-router-dom";
 const W = 1920;
 
 const JOB_IMAGES = [
-  "/figma-assets/multi/driving.png",
-  "/figma-assets/multi/phone-call.png",
-  "/figma-assets/multi/eating.png",
-  "/figma-assets/multi/thinking-work.png",
-  "/figma-assets/multi/email.png",
+  "/figma-assets/multi/driving.webp",
+  "/figma-assets/multi/phone-call.webp",
+  "/figma-assets/multi/eating.webp",
+  "/figma-assets/multi/thinking-work.webp",
+  "/figma-assets/multi/email.webp",
 ] as const;
 
 function ClickCursor({ positionClass }: { positionClass: string }) {
@@ -118,7 +118,7 @@ export function MultitaskingPage() {
           <section className="relative h-[2158px] w-[1920px] overflow-hidden bg-white">
             {/* background */}
             <img
-              src="/figma-assets/multi/background.png"
+              src="/figma-assets/multi/background.webp"
               alt="background"
               className="absolute left-0 bottom-0 w-[1920px] min-h-[1200px] object-cover object-bottom pointer-events-none z-0"
             />
@@ -126,32 +126,32 @@ export function MultitaskingPage() {
             {/* brain and switch task */}
             <div className="absolute left-0 top-0 h-[1116px] w-[1920px] bg-transparent z-10">
               <img
-                src="/figma-assets/multi/brain.png"
+                src="/figma-assets/multi/brain.webp"
                 alt="brain"
                 className="absolute left-[150px] top-[80px] h-[890px] w-auto object-contain"
               />
               <img
-                src="/figma-assets/multi/definition.png"
+                src="/figma-assets/multi/definition.webp"
                 alt=""
                 className="absolute left-[60px] top-[300px] h-[220px] w-auto object-contain"
               />
               <img
-                src="/figma-assets/multi/many-things.png"
+                src="/figma-assets/multi/many-things.webp"
                 alt=""
                 className="absolute left-[80px] top-[680px] h-[183px] w-auto object-contain"
               />
               <img
-                src="/figma-assets/multi/simultaneous-tasks.png"
+                src="/figma-assets/multi/simultaneous-tasks.webp"
                 alt=""
                 className="absolute left-[550px] top-[850px] h-[130px] w-auto object-contain"
               />
               <img
-                src="/figma-assets/multi/switching.png"
+                src="/figma-assets/multi/switching.webp"
                 alt=""
                 className="absolute left-[1290px] top-[820px] h-[70px] w-auto object-contain"
               />
               <img
-                src="/figma-assets/multi/back-forth.png"
+                src="/figma-assets/multi/back-forth.webp"
                 alt=""
                 className="absolute left-[1490px] top-[915px] h-[50px] w-auto object-contain"
               />
@@ -189,7 +189,7 @@ export function MultitaskingPage() {
                 className={`absolute right-[0.05px] bottom-[327.5px] w-[998.95px] ${baseChatClass} ${showBossChat ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
               >
                 <img
-                  src="/figma-assets/multi/boss-chat.png"
+                  src="/figma-assets/multi/boss-chat.webp"
                   alt="boss chat"
                   className="w-full h-auto object-contain"
                 />
@@ -198,7 +198,7 @@ export function MultitaskingPage() {
                 className={`absolute right-[471.4px] bottom-[260.06px] w-[370.6px] ${baseChatClass} ${showBossMsg ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
               >
                 <img
-                  src="/figma-assets/multi/boss-message.png"
+                  src="/figma-assets/multi/boss-message.webp"
                   alt="boss message"
                   className="w-full h-auto object-contain"
                 />
@@ -214,7 +214,7 @@ export function MultitaskingPage() {
                 }`}
               >
                 <img
-                  src="/figma-assets/multi/mom-notification.png"
+                  src="/figma-assets/multi/mom-notification.webp"
                   alt="mom notification"
                   className="w-full h-auto"
                 />
@@ -226,7 +226,7 @@ export function MultitaskingPage() {
                 className={`absolute left-[55px] bottom-[234.07px] w-[967.42px] ${baseChatClass} ${showMomChat ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
               >
                 <img
-                  src="/figma-assets/multi/mom-chat.png"
+                  src="/figma-assets/multi/mom-chat.webp"
                   alt="mom chat"
                   className="w-full h-auto object-contain"
                 />
@@ -235,7 +235,7 @@ export function MultitaskingPage() {
                 className={`absolute left-[219px] bottom-[98.06px] w-[395.91px] ${baseChatClass} ${showMomMsg ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
               >
                 <img
-                  src="/figma-assets/multi/mom-message.png"
+                  src="/figma-assets/multi/mom-message.webp"
                   alt="mom message"
                   className="w-full h-auto object-contain"
                 />
@@ -262,7 +262,7 @@ export function MultitaskingPage() {
                 }`}
               >
                 <img
-                  src="/figma-assets/multi/send-btn.png"
+                  src="/figma-assets/multi/send-btn.webp"
                   alt="send"
                   className="w-full h-auto"
                 />
