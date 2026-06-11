@@ -83,7 +83,7 @@ export default function Game5Page() {
         }
         return prev + 1;
       });
-    }, 1800);
+    }, 2300);
     return () => clearInterval(interval);
   }, [showRewardScreen]);
 
@@ -392,7 +392,7 @@ export default function Game5Page() {
                   style={{
                     animation:
                       msgIndex < 4
-                        ? "chatMsgSlideUpCycle 1.8s forwards"
+                        ? "chatMsgSlideUpCycle 2.3s forwards"
                         : "chatMsgSlideUpFinal 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards",
                   }}
                 />

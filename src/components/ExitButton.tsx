@@ -98,8 +98,8 @@ export default function ExitButton({ mode = "fixed" }: { mode?: "fixed" | "absol
             <img
               src="/figma-assets/exit/exit-question.png"
               alt="ต้องการออกไปหน้าแรกหรือไม่"
-              className="mb-8 object-contain"
-              style={{ width: "600px", height: "auto" }}
+              className="mb-[117px] object-contain"
+              style={{ width: "1215px", height: "auto" }}
             />
 
             <div className="flex items-center gap-[113px]">
