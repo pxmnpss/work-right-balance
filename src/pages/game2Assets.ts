@@ -63,4 +63,4 @@ export const imgMaiWhai2 = `${P}/cant-do-2.png`;
 export const imgListenMusic = `${P}/listen-music.png`;
 export const imgListenNoMusic = `${P}/listen-no-lyrics.png`;
 export const imgCanDo = `${P}/can-do.png`;
-export const imgHeadphone = `${P}/headphone.png`;
+export const imgHeadphone = `${P}/headphone.gif`;

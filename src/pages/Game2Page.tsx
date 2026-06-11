@@ -737,9 +737,8 @@ function Game2Artboard() {
           <img
             src={imgHeadphone}
             alt="หูฟัง"
-            className="absolute left-[1268.2px] bottom-[1076.98px] w-[654px] object-contain z-19"
+            className="absolute left-[497.96px] bottom-[782.04px] w-[2730.74px] max-w-none -rotate-[-17.43deg] object-contain z-19"
           />
-
           <div
             className="absolute left-[404px] bottom-[585px] w-[1120px] flex flex-col items-center justify-center cursor-pointer pointer-events-auto transition-transform hover:scale-105 active:scale-100"
             onClick={handleNavigateNext}
@@ -801,7 +800,7 @@ export function Game2Page() {
           mix-blend-mode: normal;
         }
       `}</style>
-      
+
       <ExitButton mode="fixed" />
 
       <div
